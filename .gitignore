@@ -1,0 +1,41 @@
+# .gitignore para um projeto Python
+
+# Ignorar arquivos e pastas de compilação Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Arquivos de ambientes virtuais
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Arquivos de configuração do VSCode
+.vscode/
+
+# Arquivos de ambiente (geralmente usados para variáveis sensíveis)
+.env
+
+# Arquivos de logs
+*.log
+
+# Arquivos de banco de dados
+*.sqlite3
+*.db
+
+# Arquivos temporários
+*.swp
+*.bak
+*.tmp
+
+# Teste e relatórios de cobertura
+.coverage
+*.cover
+nosetests.xml
+coverage.xml
+*.hypothesis/
+/logs/
